@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+footer {
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  color: purple;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: purple;
+  color: white;
+}
+
+.container * {
+  margin: auto;
+}
+
+#burger-name {
+  margin-bottom: 20px;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+
+
+#burger-coupon {
+  margin: 20px 0;
+}
+
+#calculate {
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+}
